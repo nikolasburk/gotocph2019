@@ -15,6 +15,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly ./src/index.ts",
-    "start": "ts-node ./index.ts"
+    "start": "ts-node ./index.ts",
+    "postinstall": "npx prisma2 generate"
   }
 }
