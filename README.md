@@ -1,5 +1,9 @@
 # GraphQL & Prisma Demo (GOTO Copenhagen 2019)
 
+## Slides
+
+You can find the slides of the talk [here](https://www.slideshare.net/nburk/nextgeneration-api-development-with-graphql-and-prisma).
+
 ## Usage
 
 ### 1. Clone repo
