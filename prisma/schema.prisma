@@ -1,6 +1,6 @@
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://USER:PASSWORD@HOST:POST/DATABASE"
+  url      = "postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
 }
 
 generator photonjs {
