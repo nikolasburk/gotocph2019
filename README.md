@@ -59,3 +59,7 @@ npm run dev
 ### 5. Explore the GraphQL API
 
 You can now go to [http://localhost:4000](http://localhost:4000) in your browser and start sending GraphQL queries and mutations ✨
+
+## Learn more
+
+To learn more about the Prisma Framework, go to the [official GitHub repo](https://github.com/prisma/prisma2).
