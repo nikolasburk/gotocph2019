@@ -1,0 +1,56 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "stepType": "CreateModel",
+      "model": "User"
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "field": "id",
+      "type": "String",
+      "arity": "required"
+    },
+    {
+      "stepType": "CreateDirective",
+      "model": "User",
+      "field": "id",
+      "directive": "id"
+    },
+    {
+      "stepType": "CreateDirective",
+      "model": "User",
+      "field": "id",
+      "directive": "default"
+    },
+    {
+      "stepType": "CreateDirectiveArgument",
+      "model": "User",
+      "field": "id",
+      "directive": "default",
+      "argument": "",
+      "value": "cuid()"
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "field": "name",
+      "type": "String",
+      "arity": "optional"
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "field": "email",
+      "type": "String",
+      "arity": "required"
+    },
+    {
+      "stepType": "CreateDirective",
+      "model": "User",
+      "field": "email",
+      "directive": "unique"
+    }
+  ]
+}
